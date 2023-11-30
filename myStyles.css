@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid-item{
+    background-color: rgba(44, 36, 114, 0.438);
+    text-align: center;
+    padding: 30px;
+    margin: 3px;
+}
+
+.grid-visor{
+    background-color: rgba(44, 36, 114, 0.438);
+    grid-column: span 3;
+    padding: 30px;
+    margin: 3px;
+}
